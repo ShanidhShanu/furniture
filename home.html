@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Furniture Store Template</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="#">High Fly Furnitures</a></div>
+        <ul class="links">
+          <li>
+            <a href="#" class="desktop-link">Products &#x25BE;</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Products</label>
+            <ul>
+              <li><a href="#">Tables & Chairs</a></li>
+              <li><a href="#">Sofas</a></li>
+              <li><a href="#">Cupboards</a></li>
+              <li><a href="#">Beds</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Locate us on Map</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>
+
+  <header>
+
+ <div class="slider">
+  <div class="slides">
+
+    <input type="radio" name="radio-btn" id="radio1">
+  <input type="radio" name="radio-btn" id="radio2">
+  <input type="radio" name="radio-btn" id="radio3">
+  <input type="radio" name="radio-btn" id="radio4">
+
+  <div class="slide first">
+    <img src="Cassiope Engineered Wood King Size Drawer Storage Upholstered Bed In Finish 29599.jpg" alt="">
+  </a>
+
+  </div>
+  <div class="slide">
+    <img style = "margin-top:-70px;" src="Napper Sofa Regular SIngle Seater Cappuccino color 11824.jpg" alt="">
+  </div>
+  <div class="slide">
+    <img style = "margin-top:-170px;" src="Napper L Shape Sofa Set (3 Seater + Right Aligned Chaise) 32453.jpg" alt="">
+  </div>
+  <div class="slide">
+    <img style = "height: 400px; width: auto; margin-left: 100px; margin-top: 30px " src="Gingham 4 Door Wardrobe with Drawer and 1 Hanging Space (Columbia Walnut)_17800.jpg" alt="">
+  </div>
+
+  <div class="navigation-auto">
+   <div class="auto-btn1"> </div>
+   <div class="auto-btn2"> </div>
+   <div class="auto-btn3"> </div>
+   <div class="auto-btn4"> </div>
+  </div>
+
+  </div>
+
+  <div class="navigation-manual">
+  <label for="radio1" class="manual-btn"> </label>
+  <label for="radio2" class="manual-btn"> </label>
+  <label for="radio3" class="manual-btn"> </label>
+  <label for="radio4" class="manual-btn"> </label>
+  </div>
+
+<script type="text/javascript">
+var counter = 1;
+setInterval(function(){
+   document.getElementById('radio' + counter).checked = true;
+   counter++;
+   if(counter > 4){
+     counter = 1;
+   }
+}, 3000);
+</script>
+
+</header>
+
+<br/>
+<br/>
+<div class='button'>
+  <a>   <button class="button1">Tables & Chairs</button> <a/>
+  <a> <button class="button2">Sofas</button>  </a>
+  <a>  <button class="button3">Cupboards</button> </a>
+  <a> <button class="button4">Beds</button> </a>
+</div>
+  <br/>
+  <hr/ style="margin: 0" color="black">
+  <br/>
+
+<h5 style = " margin-left: 20px;"> *Free delivery within 6 Kms from the store* </h5>
+<br/>
+
+  <div>
+    <div class="row">
+    <div class="column">
+      <img src="Cassiope Engineered Wood King Size Drawer Storage Upholstered Bed In Finish 29599.jpg" alt="" style="width: auto; height: 150px; margin-left: 90px">
+       <h3 style="text-align: center;"> Cassiope engineered wood King size drawer storage upholstered bed</h3>
+       <a>
+       <button class="button5"> Buy Now <i class="fa fa-shopping-cart"></i> <br/> <span style="font-size: 14px"> &#8377;28,799 </span> </button>
+     </a>
+    </div>
+    <div class="column">
+      <img src="Gingham 4 Door Wardrobe with Drawer and 1 Hanging Space (Columbia Walnut)_17800.jpg" alt="" style="width: auto; height: 200px; margin-left: 130px; margin-top: -50px">
+      <h3 style="text-align: center; "> Gingham 4 Door Wardrobe with Drawer and a Hanging Space (Columbia Walnut) </h3>
+      <a>
+       <button class="button5"> Buy Now <i class="fa fa-shopping-cart"></i> <br/><span style="font-size: 14px"> &#8377;17,790 </span> </button>
+       </a>
+    </div>
+    <div class="column">
+      <img src="Napper Sofa Regular SIngle Seater Cappuccino color 11824 crop.jpg" alt="" style="width: auto; height: 200px; margin-left: 90px; margin-top: -50px;">
+      <h3 style="text-align: center;"> Napper Sofa: Regular-Single Seater(Cappuccino color) </h3>
+      <a>
+        <button class="button5"> Buy Now <i class="fa fa-shopping-cart"></i> <br/>
+        <span style="font-size: 15px; color: white"> &#8377;11,749 </span> </button>
+         </a>
+    </div>
+  </div>
+
+  <div>
+    <div class="row">
+    <div class="column">
+      <img src="Napper L Shape Sofa Set (3 Seater + Right Aligned Chaise) 32453.jpg" alt="" style="width: auto; height: 250px; margin-left: 90px">
+      <h3 style="text-align: center;"> Napper L Shape Sofa Set (3 Seater + Right Aligned Chaise) </h3>
+      <a>
+        <button class="button5"> Buy Now <i class="fa fa-shopping-cart"></i> <br/>
+        <span style='color:red;text-decoration:line-through'>
+   <span style='color:white; font-size:13px'>&#8377; 32,499</span></span> &nbsp
+        <span style="font-size: 15px; color: yellow"> &#8377;28,999 </span> </button>
+         </a>
+    </div>
+    <div class="column">
+      <img src="DHD Premium Quality Sheesham Solid Wood Solid Wood 4 Seater Dining Set  (Finish Color -Dark Walnut Finish15499.jpg" alt="" style="width: auto; height: 250px; margin-left: 90px">
+      <h3 style="text-align: center;">Sheesham Solid Wood 4 Seater Dining Set(Dark Walnut) </h3>
+      <a>
+       <button class="button5"> Buy Now <i class="fa fa-shopping-cart"></i> <br/><span style="font-size: 14px"> &#8377;15,499 </span> </button>
+       </a>
+    </div>
+    <div class="column">
+      <img src="XpertGrid Ultra Mattress 72x60inches 18149.jpg" alt="" style="width: auto; height: 250px; margin-left: 90px">
+      <h3 style="text-align: center;"> XpertGrid Ultra Mattress <br/> (72" x 60")</h3>
+      <a>
+        <button class="button5"> Buy Now <i class="fa fa-shopping-cart"></i> <br/>
+        <span style='color:red;text-decoration:line-through'>
+   <span style='color:white; font-size:13px'>&#8377;18,599</span></span> &nbsp
+        <span style="font-size: 15px; color: yellow"> &#8377;14,999 </span> </button>
+       </a>
+    </div>
+  </div>
+
+  <br/>
+
+
+  <div class="footer-container">
+     <div class="footer">
+      <div class="footer-heading footer-1">
+          <h2> High Fly Furnitures </h2>
+           <a>About Us</a>
+           <a>Contact</a>
+           <a>Locate Us</a>
+
+      </div>
+      <div class="footer-heading footer-2">
+          <h2> Products </h2>
+           <a>Tables and Chairs</a>
+           <a>Sofas</a>
+           <a>Cupboards</a>
+           <a>Beds</a>
+      </div>
+      <div class="footer-heading footer-3">
+          <h2> Social Media </h2>
+           <a href="https://www.instagram.com">Instagram</a>
+           <a href="https://www.gmail.com">E-mail</a>
+           <a href="https://www.facebook.com">Facebook</a>
+           <a href="https://www.twitter.com">Twitter</a>
+      </div>
+       <div class="footer-email-form">
+         <h2> Don't miss any discount. <br/> Be a part of our Family! </h2>
+         <input type="email"  id="footer-email" placeholder="Enter your email address" required>
+         <input type="Submit" value="Submit" id="footer-email-btn" onclick="succMail()">
+       </div>
+     </div>
+   </div>
+
+   <script type="text/javascript">
+     function succMail(){
+       alert("Your email was submitted successfully.");
+     }
+   </script>
+
+</body>
+</html>
